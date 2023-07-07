@@ -17,9 +17,10 @@ Disk-Sectors		Name-of-section
 33~2879			Data Area
 
 To run the program:
+
 	part I:
-		./diskinfo <image file> | ex: ./diskinfo foo.IMA
-	part II:
+ 		./diskinfo <image file> | ex: ./diskinfo foo.IMA
+   	part II:
 		./disklist <image file> | ex: ./disklist foo.IMA
 	part III:
 		./diskget <image file> <file to be copied> | ex: ./diskget foo.IMA foo.txt
