@@ -12,9 +12,9 @@ These programs only work for FAT12 file systems with 2880 sectors and 512 bytes 
 FAT12 Disk Organization:
 Disk-Sectors		Name-of-section
 0			Boot Sector
-1~18			FAT tables
-19~32			Root Directory
-33~2879			Data Area
+1-18			FAT tables
+19-32			Root Directory
+33-2879			Data Area
 
 To run the program:
 
