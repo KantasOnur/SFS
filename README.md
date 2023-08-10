@@ -4,7 +4,11 @@ To compile the programs type "make".
 -----------------------------------
 
 Description:
-4 simple programs that display information about the disk, list the files in the disk about various information about them, copy files in the root directory of the disk to the current directory of the machine, and finally copy any file from the machine to the disk given a path.
+4 simple programs that:
+* display information about the disk,
+* list the files and subdirectories, and files under subdirectories, 
+* copy a file from the machine to the root directory of the disk, and
+* copy any file in the disk to a path in the machine.
 
 Important:
 These programs only work for FAT12 file systems with 2880 sectors and 512 bytes for sector, they have not been tested for other types of image files.
